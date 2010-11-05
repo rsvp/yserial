@@ -1,10 +1,14 @@
 00-dev.log                                          Review date : 2010-11-04
 #  vim: set fileencoding=utf-8 ff=unix tw=78 ai syn=py : per Python PEP 0263 
 
-_______________ GENERAL INFO 
+     This document is intended for yserial developers.
+     Users may consult within the y_serial_dev.py module for documentation.
+
+
+_______________ GENERAL INFO, see also http://yserial.sourceforge.net 
 
 The development style using Mercurial version control is discussed in the
-docs, please see 02-hg-dev-stable-branch.html for details.
+docs directory, please see 02-hg-dev-stable-branch.html for details.
 
 There are two branches in the repo: default and stable. The default branch is
 for non-bug development, while the stable branch is for bug fixes.
@@ -23,7 +27,9 @@ _______________ 2010-11-04 Thu 16:26  by rsvp
 Hello, world. Thanks very much for looking into this project. We really
 appreciate your effort into our future development.
 
-
+     -Adriano, yserial lead developer, 
+      adriano@akapost.com      
+      user: rsvp at bitbucket and at git.
 
 
 

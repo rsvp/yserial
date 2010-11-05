@@ -1,4 +1,4 @@
-#  y_serial Python module         Version 0.60                Date : 2010-08-20
+#  y_serial Python module         Version 0.60.0              Date : 2010-11-04
 # -*- coding: iso-8859-1 -*-
 #                                 http://yserial.sourceforge.net
 ''' 
