@@ -1,8 +1,9 @@
-00-dev.log                                          Review date : 2010-11-04
+00-dev.log                                          Review date : 2010-11-05
 #  vim: set fileencoding=utf-8 ff=unix tw=78 ai syn=py : per Python PEP 0263 
 
      This document is intended for yserial developers.
      Users may consult within the y_serial_dev.py module for documentation.
+     That one module file is the latest and all you need to get started.
 
 
 _______________ GENERAL INFO, see also http://yserial.sourceforge.net 
@@ -24,12 +25,14 @@ Your personal non-recorded tags can be created using the -l local option.
 
 _______________ 2010-11-04 Thu 16:26  by rsvp 
 
-Hello, world. Thanks very much for looking into this project. We really
-appreciate your effort into our future development.
+Hello, world. Thanks very much for participating in this project. We really
+appreciate your effort into our collective code development.
 
      -Adriano, yserial lead developer, 
-      adriano@akapost.com      
-      user: rsvp at bitbucket and at git.
+           http://bitbucket.org/rsvp
+           http://github.com/rsvp
+           adriano@akapost.com      
+
 
 
 
