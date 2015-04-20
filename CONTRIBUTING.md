@@ -13,9 +13,23 @@ this project. Your help is essential.
 0. Wait for your pull request to be reviewed.
 
 
+## Testing yserial
+
+Tests are currently contained within the module itself.  Be sure to change the
+default database file to suit yourself; see assignment db0 in class Base.
+Then,
+
+```
+     import y_serial_dev as y_serial
+     y_serial.tester( database )
+     #        ^for the principal class Main
+     #        testfarm is for the beta version, not yet in Main.
+```
+
+
 ## Tips regarding pull requests
 
-- Refine tests whenever possible.
+- Refine the tests whenever possible.
 
 - Update documentation as necessary.  
 
