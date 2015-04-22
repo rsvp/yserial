@@ -77,9 +77,19 @@ code contains verbose comments for developers. Our
 But first checkout the **ten-minute HOWTO guide** at http://yserial.sourceforge.net
 
 
+## Contributing to yserial repository
+
+Details are covered in [CONTRIBUTING.md](https://git.io/yserial-pr) (which
+should appear when making a pull request). All feedback is welcome. 
+
+For real-time discussions, please go to the #yserial IRC channel on freenode:
+
+- IRC <irc://irc.freenode.net/#yserial>
+
+
 ## Testing
 
-Even the tests are contained within the module itself.
+Tests are contained within the module itself.
 Be sure to change the default database file to suit your situation; 
 see assignment db0 in class Base. Then,
 
@@ -90,21 +100,12 @@ see assignment db0 in class Base. Then,
      #        testfarm is for the beta version, not yet in Main.
 ```
 
-## Memorable links
+
+## Memorable current links
 
 - https://git.io/yserial points to the GitHub yserial repository.
-- https://git.io/yserial-dev points to development source code page.
+- https://git.io/yserial-dev points to development module code page.
 - https://git.io/y_serial points to the latest module file directly.
-
-
-## Contributing to our repository
-
-Details are covered in [CONTRIBUTING.md](https://git.io/yserial-pr) (which
-should appear when making a pull request).
-
-For real-time discussions, please go to the #yserial IRC channel on freenode:
-
-- IRC <irc://irc.freenode.net/#yserial>
 
 
 ## Brief development history
