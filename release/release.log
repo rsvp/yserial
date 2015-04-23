@@ -1,4 +1,4 @@
-#  release.log for yserial, https://github.com/rsvp/yserial       Date : 2015-04-21
+#  release.log for yserial, https://github.com/rsvp/yserial       Date : 2015-04-22
 #
 #  Older archived versions of y_serial_*.py, going back to 2009, are stored at:
 #  http://sourceforge.net/projects/yserial/files/
@@ -6,4 +6,6 @@
   ::  sha256sum signature on 21 Aug 2010 07:04 -0700   :
 92313b2e60afea86fa0812637e271e61e619aaa699e60ab4f061abfb61cd4adb  y_serial_v060.py
 
-
+  ::  sha256sum signature on Wed, 22 Apr 2015 18:36:01 -0700   :
+fe6b1ed77c9480d4aba8dde5e9d2c831a3e5d299f2a214a6cd7da860eb3e3612  y_serial_v070.py
+ 
