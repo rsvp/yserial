@@ -5,6 +5,16 @@
        execution, see HOWTO http://yserial.sourceforge.net
 
 
+## 2015-04-22  Release of y_serial v0.70.0 at GitHub
+
+It's been five years since the last release -- v060 was rock-solid stable.
+For the latest release, we can certify that it works under Python 2.7.8 and
+IPython 2.3.0. We changed the default database db0 for the development version
+to work under /tmp, and the encoding of the source code is now officially
+utf-8. Nice to see that our work has been useful in IPython notebooks and 
+clusters.
+
+
 ## 2015-04-19  GitHub becomes our development site
 
 Over the last five years, there has been a dramatic shift to **git** as a

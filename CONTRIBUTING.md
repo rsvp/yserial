@@ -13,17 +13,19 @@ this project. Your help is essential.
 0. Wait for your pull request to be reviewed.
 
 
-## Testing yserial
+## Testing
 
-Tests are currently contained within the module itself.  Be sure to change the
-default database file to suit yourself; see assignment db0 in class Base.
-Then,
+Tests are contained within the module itself. 
+The default database file db0 assigned in class Base presumes 
+Linux top directory /tmp (change to suit your system) -- 
+yserial is designed to operate *cross-platform* including Windows.
 
-```
+```py
      import y_serial_dev as y_serial
-     y_serial.tester( database )
+     y_serial.tester()
      #        ^for the principal class Main
      #        testfarm is for the beta version, not yet in Main.
+     #   Flip the DEBUG variable for verbose results. 
 ```
 
 
