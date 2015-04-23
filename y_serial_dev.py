@@ -1,6 +1,8 @@
-#  y_serial Python module         Version 0.60.0              Date : 2010-11-04
-# -*- coding: iso-8859-1 -*-
-#                                 http://yserial.sourceforge.net
+#  y_serial Python module         Version 0.70.0               Date : 2015-04-22
+#  vim: set fileencoding=utf-8 ff=unix tw=78 ai syn=python : per Python PEP 0263
+# 
+#                         Origin  https://github.com/rsvp/yserial
+#                          HOWTO  http://yserial.sourceforge.net
 ''' 
 _______________ y_serial :: warehouse compressed Python objects with SQLite
 
@@ -394,6 +396,11 @@ _______________ TABLE OF CONTENTS:
 
 _______________  CHANGE LOG
 
+     2015-04-22  v0.70:  Code review to fix tester.
+                         Default database db0 in class Base now uses /tmp.
+                         Character set change from iso-8859-1 to utf-8.
+                         Certified to run under Python 2.7.8 and IPython 2.30.
+
      2010-08-20  v0.60:  Certified to run under Python 2.6 series.
                          Edited the preface (also used for welcome page).
                          Added getkid. Cosmetic touch-up for view method.
@@ -454,11 +461,12 @@ from version 2.3.2 in Python 2.5 to version 2.4.1 in Python 2.6.
 
 #  _______________ Variable settings with imports
 
-DEBUG    = False
+DEBUG = False
 #  Here's how to EXECUTE TESTS. First, be sure to change the default 
 #  database file to suit yourself; see assignment db0 in class Base.
-#            import y_serial_v053 as y_serial
-#            y_serial.tester( database )
+#
+#            import y_serial_dev as y_serial
+#            y_serial.tester()
 #            #        ^for the principal class Main
 #            y_serial.testfarm( directory, maxbarns )
 #                     ^for the beta version, not yet in Main.
@@ -509,7 +517,7 @@ def pzloads( pzob ):
 class Base:
      '''_______________ Essential attributes and methods for database setup.'''
 
-     db0      = '/home/yaya/var/db/y_serial.sqlite'
+     db0      = '/tmp/y_serial-db0-tmp.sqlite'
      #           ========================================================== ***
      #          ^ be sure to specify an absolute path to the database file.
      #            This is just your convenient DEFAULT DATABASE FILE.
