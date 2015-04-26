@@ -74,7 +74,8 @@ The module includes the tutorial documentation within itself. And the source
 code contains verbose comments for developers. Our
 [wiki](https://github.com/rsvp/yserial/wiki) has some useful tips.
 
-But first checkout the **ten-minute HOWTO guide** at http://yserial.sourceforge.net
+But first checkout the **ten-minute HOWTO tutorial** at 
+http://nbviewer.ipython.org/urls/git.io/yserial-HOWTO.ipynb
 
 
 ## Contributing to yserial repository
