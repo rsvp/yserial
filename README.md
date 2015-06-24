@@ -85,9 +85,10 @@ http://nbviewer.ipython.org/urls/git.io/yserial-HOWTO.ipynb
 Details are covered in [CONTRIBUTING.md](https://git.io/yserial-pr) (which
 should appear when making a pull request). All feedback is welcome. 
 
-For real-time discussions, please go to the #yserial IRC channel on freenode:
+For real-time discussions, please go to: 
 
-- IRC <irc://irc.freenode.net/#yserial>
+- \#yserial IRC channel on freenode: irc://irc.freenode.net/#yserial
+- [Gitter.im for yserial](https://gitter.im/rsvp/yserial)
 
 
 ## Testing
